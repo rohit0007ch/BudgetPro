@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CatergoryCell" id="gTV-IL-0wX" customClass="CatergoryCell" customModule="BudgetPro" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="292" height="169"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="292" height="169"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vGb-UI-zeb">
+                        <rect key="frame" x="0.0" y="0.0" width="292" height="169"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uf-a7-nUp">
+                                <rect key="frame" x="121" y="10" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="LsG-OK-JwE"/>
+                                    <constraint firstAttribute="width" constant="50" id="O9t-o1-pzN"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6A-l9-EC0">
+                                <rect key="frame" x="129" y="68" width="34" height="15.666666666666671"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="R6A-l9-EC0" secondAttribute="bottom" constant="8" id="O8T-xz-eAg"/>
+                            <constraint firstItem="8uf-a7-nUp" firstAttribute="top" secondItem="vGb-UI-zeb" secondAttribute="top" constant="10" id="RMG-Uq-d2H"/>
+                            <constraint firstItem="R6A-l9-EC0" firstAttribute="top" secondItem="8uf-a7-nUp" secondAttribute="bottom" constant="8" id="SjZ-PC-Ni3"/>
+                            <constraint firstItem="R6A-l9-EC0" firstAttribute="centerX" secondItem="vGb-UI-zeb" secondAttribute="centerX" id="Xbt-Fe-NX9"/>
+                            <constraint firstItem="8uf-a7-nUp" firstAttribute="centerX" secondItem="vGb-UI-zeb" secondAttribute="centerX" id="mtE-wN-kUN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="vGb-UI-zeb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="0Su-6a-Glb"/>
+                <constraint firstItem="vGb-UI-zeb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="2GR-yu-orG"/>
+                <constraint firstAttribute="trailing" secondItem="vGb-UI-zeb" secondAttribute="trailing" id="Sib-Bp-ce6"/>
+                <constraint firstAttribute="bottom" secondItem="vGb-UI-zeb" secondAttribute="bottom" id="UTJ-1n-bdI"/>
+            </constraints>
+            <size key="customSize" width="292" height="169"/>
+            <connections>
+                <outlet property="IconBtn" destination="8uf-a7-nUp" id="POH-Pf-kp8"/>
+                <outlet property="titleLabel" destination="R6A-l9-EC0" id="Th5-Pj-QzO"/>
+            </connections>
+            <point key="canvasLocation" x="51.908396946564885" y="129.22535211267606"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
