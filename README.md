@@ -20,9 +20,9 @@ It features **custom slider transitions**, **dynamic API updates**, and **offlin
 
 ## 🖥️ Screenshots
 
-| Launch Screen | Login Screen | Dashboard |
+| Launch Screen | Login Screen | Dashboard | Category Icon Upload |
 |-----------|------------|------------|
-| <img src="screenshots/dashboard.png" width="200"> | <img src="screenshots/loginn.png" width="200"> | <img src="screenshots/home.png" width="200"> |
+| <img src="screenshots/launch.png" width="200"> | <img src="screenshots/loginn.png" width="200"> | <img src="screenshots/home.png" width="200"> | <img src="screenshots/categoryiconupload.png" width="200">
 
 | Monthly Summary | Category View | Transaction | Profile |
 |----------------|---------------|---------|-----------|
