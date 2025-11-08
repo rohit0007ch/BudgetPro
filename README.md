@@ -23,7 +23,7 @@ It features **custom slider transitions**, **dynamic API updates**, and **offlin
 **Main Screens**
 | Launch Screen | Login Screen | Dashboard | Category Icon Upload |
 |---------------|-------------|-----------|--------------------|
-| <img src="screenshots/launch.png" width="200"> | <img src="screenshots/loginn.png" width="200"> | <img src="screenshots/home.png" width="200"> | <img src="screenshots/categoryiconupload.png" width="200"> |
+| <img src="screenshots/launchscreen.png" width="200"> | <img src="screenshots/loginn.png" width="200"> | <img src="screenshots/home.png" width="200"> | <img src="screenshots/categoryiconupload.png" width="200"> |
 
 **Detailed / Other Screens**
 | Monthly Summary | Category View | Transaction | Profile |
