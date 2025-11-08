@@ -52,3 +52,13 @@ It features **custom slider transitions**, **dynamic API updates**, and **offlin
    git clone https://github.com/rohit0007ch/BudgetPro.git
    cd BudgetPro
    open BudgetPro.xcodeproj
+## 🧑‍💻 Author
+
+**Rohit** — iOS Developer  
+📧 rc11102003@gmail.com  
+🌐 Portfolio Website
+
+
+## ⭐ Support
+
+If you like BudgetPro, please ⭐ the repo — it helps and motivates further updates!
